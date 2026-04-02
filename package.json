@@ -17,6 +17,10 @@
     "node": ">=16"
   },
   "dependencies": {
-    "@mermaid-js/mermaid-cli": "9.1.7"
+    "@mermaid-js/mermaid-cli": "^10.9.1"
+  },
+  "overrides": {
+    "tar-fs": "2.1.4",
+    "ws": "8.17.1"
   }
 }
