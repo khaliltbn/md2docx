@@ -1,0 +1,22 @@
+{
+  "name": "md2docx",
+  "version": "0.1.0",
+  "description": "CLI tool to convert Markdown with Mermaid diagrams into DOCX using Pandoc and Mermaid CLI.",
+  "bin": {
+    "md2docx": "main.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "docx",
+    "mermaid",
+    "pandoc",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "9.1.7"
+  }
+}
